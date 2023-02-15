@@ -22,7 +22,7 @@ body {
 
 @media screen and (min-width: 1025px) {
     #center-content {
-        width: 23vw;
+        width: 22vw;
     }
 }
 
@@ -49,24 +49,29 @@ body {
 
 #center-content,
 img {
-    border-radius: 1em; /* round edges */
+    border-radius: 0.8em; /* round edges */
 }
 
 #center-content * {
     max-width: 100%;
 }
 
+p,
+h1 {
+    font-family: 'Outfit', sans-serif;
+}
+
 p {
     margin: 1em 0.8em 0 0.8em;
     font-size: 1em;
     font-weight: 400;
-    font-family: 'Outfit', sans-serif;
     color: hsl(220, 15%, 55%); /*grayish blue  */
 }
 
-#slogan {
+h1 {
+    margin: 1em 0.23em 0 0.23em; 
     font-weight: 700;
-    font-size: 1.3em;
+    font-size: 1.42em;
     color:hsl(218, 44%, 22%) /* dark blue*/
 }
 
